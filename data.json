@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "community",
+      "subCtg": ["activities", "artists", "childcare"]
+    },
+    {
+      "name": "personals",
+      "subCtg": ["strictly platonic", "women seek women", "women seeking men"]
+    },
+    {
+      "name": "discussion forums",
+      "subCtg": ["apple", "arts", "atheist"]
+    },
+    {
+      "name": "housing",
+      "subCtg": ["apts / housing", "housing swap", "housing wanted"]
+    },
+    {
+      "name": "for sale",
+      "subCtg": ["antiques", "appliances", "arts+crafts"]
+    },
+    {
+      "name": "services",
+      "subCtg": ["automotive", "beauty", "cell/mobile"]
+    },
+    {
+      "name": "jobs",
+      "subCtg": ["accounting+finance", "admin/office", "arch / engineering"]
+    },
+    {
+      "name": "gigs",
+      "subCtg": ["computer", "creative", "crew"]
+    }
+  ]
+}
