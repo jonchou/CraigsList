@@ -1,0 +1,42 @@
+a:visited {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.category {
+  padding: 10px;
+}
+
+.categoryTitle {
+  background-color: #eee;
+  border-top: solid 0.1em #ddd;
+  border-bottom: solid 0.1em #ddd;
+  text-align: center;
+  font-size: 1.5em;
+  width: 10em;
+  height: 1.5em;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.nav {
+  text-align: center;
+}
+
+.title,
+.title:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.title:hover {
+  text-decoration: underline;
+  color: red;
+}
