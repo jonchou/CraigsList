@@ -1,0 +1,158 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "name": "community"
+    },
+    {
+      "id": 2,
+      "name": "personals"
+    },
+    {
+      "id": 3,
+      "name": "discussion forums"
+    },
+    {
+      "id": 4,
+      "name": "housing"
+    },
+    {
+      "id": 5,
+      "name": "for sale"
+    },
+    {
+      "id": 6,
+      "name": "services"
+    },
+    {
+      "id": 7,
+      "name": "jobs"
+    },
+    {
+      "id": 8,
+      "name": "gigs"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "activities",
+      "section_id": 1
+    },
+    {
+      "id": 2,
+      "name": "artists",
+      "section_id": 1
+    },
+    {
+      "id": 3,
+      "name": "childcare",
+      "section_id": 1
+    },
+    {
+      "id": 4,
+      "name": "strictly platonic",
+      "section_id": 2
+    },
+    {
+      "id": 5,
+      "name": "women seek women",
+      "section_id": 2
+    },
+    {
+      "id": 6,
+      "name": "women seeking men",
+      "section_id": 2
+    },
+    {
+      "id": 7,
+      "name": "apple",
+      "section_id": 3
+    },
+    {
+      "id": 8,
+      "name": "arts",
+      "section_id": 3
+    },
+    {
+      "id": 9,
+      "name": "atheist",
+      "section_id": 3
+    },
+    {
+      "id": 10,
+      "name": "apts / housing",
+      "section_id": 4
+    },
+    {
+      "id": 11,
+      "name": "housing swap",
+      "section_id": 4
+    },
+    {
+      "id": 12,
+      "name": "housing wanted",
+      "section_id": 4
+    },
+    {
+      "id": 13,
+      "name": "antiques",
+      "section_id": 5
+    },
+    {
+      "id": 14,
+      "name": "appliances",
+      "section_id": 5
+    },
+    {
+      "id": 15,
+      "name": "arts+crafts",
+      "section_id": 5
+    },
+    {
+      "id": 16,
+      "name": "automotive",
+      "section_id": 6
+    },
+    {
+      "id": 17,
+      "name": "beauty",
+      "section_id": 6
+    },
+    {
+      "id": 18,
+      "name": "cell/mobile",
+      "section_id": 6
+    },
+    {
+      "id": 19,
+      "name": "accounting+finance",
+      "section_id": 7
+    },
+    {
+      "id": 20,
+      "name": "admin/office",
+      "section_id": 7
+    },
+    {
+      "id": 21,
+      "name": "arch / engineering",
+      "section_id": 7
+    },
+    {
+      "id": 22,
+      "name": "computer",
+      "section_id": 8
+    },
+    {
+      "id": 23,
+      "name": "creative",
+      "section_id": 8
+    },
+    {
+      "id": 24,
+      "name": "crew",
+      "section_id": 8
+    }
+  ]
+}

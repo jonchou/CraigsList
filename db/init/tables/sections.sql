@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS sections (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(50)
+);

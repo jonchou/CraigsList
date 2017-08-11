@@ -14,6 +14,7 @@ const sql = file => {
 
 const queries = {
   drop: sql('dropTables.sql'),
+  sections: sql('sections.sql'),
   category: sql('category.sql')
 };
 

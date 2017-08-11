@@ -1,2 +1,3 @@
 DROP TABLE IF EXISTS 
-category cascade;
+category,
+sections cascade;

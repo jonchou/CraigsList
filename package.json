@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
-    "initdb": "node db/init/init.js"
+    "reset-db": "node db/init/init.js && node db/init/insertDummyData.js"
   },
   "repository": {
     "type": "git",

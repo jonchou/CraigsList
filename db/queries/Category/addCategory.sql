@@ -1,4 +1,4 @@
 INSERT INTO
-  category (name)
+  category (name, section_id)
 VALUES
-  (${name})
+  (${name}, ${section_id})
