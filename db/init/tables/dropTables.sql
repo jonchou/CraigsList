@@ -1,3 +1,4 @@
-DROP TABLE IF EXISTS 
+DROP TABLE IF EXISTS
+posts,
 category,
 sections cascade;

@@ -2,13 +2,20 @@ import React from 'react';
 import axios from 'axios';
 
 class Search extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      posts: []
+    };
+  }
   componentDidMount() {
+    const self = this;
     axios
-      .get(`/api/${this.props.match.params.category}`, {
-        params: { name: this.props.match.params.category }
-      })
+      .get(`/api/category/${this.props.match.params.category}`)
       .then(results => {
-        console.log(results.data);
+        self.setState({
+          posts: results.data
+        });
       })
       .catch(error => {
         console.log(error);
@@ -20,7 +27,9 @@ class Search extends React.Component {
       <div>
         <div>In Search</div>
         <div>
-          {console.log(this.props.match.params.category)}
+          {this.state.posts.map(post => {
+            return post.title;
+          })}
         </div>
       </div>
     );

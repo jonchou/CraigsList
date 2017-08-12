@@ -11,7 +11,8 @@ function sql(file) {
 
 let queries = {
   addSection: sql('Sections/addSection.sql'),
-  addCategory: sql('Category/addCategory.sql')
+  addCategory: sql('Category/addCategory.sql'),
+  addPost: sql('Posts/addPost.sql')
 };
 
 const sectionPromises = data.sections.map(section => {
@@ -38,6 +39,24 @@ Promise.all(sectionPromises).then(() => {
       .catch(err => console.log('an error entering categories into db', err));
   });
   Promise.all(categoryPromises).then(() => {
-    console.log('complete');
+    const postsPromises = data.posts.map(post => {
+      return db
+        .query(queries.addPost, {
+          title: post.title,
+          image: post.image,
+          description: post.description,
+          location: post.location,
+          section_id: post.section_id,
+          category_id: post.category_id
+        })
+        .then(result => {
+          console.log('success entering posts', result);
+        })
+        .catch(err => console.log('an error entering posts into db', err));
+    });
+
+    Promise.all(postsPromises).then(() => {
+      console.log('complete');
+    });
   });
 });

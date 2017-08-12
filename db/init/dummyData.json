@@ -154,5 +154,16 @@
       "name": "crew",
       "section_id": 8
     }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World!",
+      "image": "",
+      "description": "First Post!",
+      "location": "123 Fake Street",
+      "section_id": 1,
+      "category_id": 1
+    }
   ]
 }
