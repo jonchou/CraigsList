@@ -6,11 +6,11 @@ class Section extends React.Component {
   toggleCategoryView(e) {
     const $ct = $(e.currentTarget);
 
-    if ($ct.hasClass('collapsed')) {
-      $ct.removeClass('collapsed');
+    if ($ct.hasClass('expanded')) {
+      $ct.removeClass('expanded');
       $ct.siblings().removeClass('show');
     } else {
-      $ct.addClass('collapsed');
+      $ct.addClass('expanded');
       $ct.siblings().addClass('show');
     }
   }

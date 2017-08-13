@@ -12,8 +12,13 @@ a {
   text-decoration: none;
 }
 
+input {
+  width: 50%;
+}
+
 .category {
   padding: 10px;
+  float: left;
 }
 
 .categoryTitle {

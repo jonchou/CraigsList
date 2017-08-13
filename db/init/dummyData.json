@@ -172,7 +172,7 @@
       "description": "Another Post!",
       "location": "Bay Area",
       "section_id": 1,
-      "category_id": 1
+      "category_id": 2
     },
     {
       "id": 3,
@@ -181,7 +181,7 @@
       "description": "I am selling a bunch of things.",
       "location": "San Francisco",
       "section_id": 1,
-      "category_id": 1
+      "category_id": 3
     }
   ]
 }
