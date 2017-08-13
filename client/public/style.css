@@ -1,3 +1,9 @@
+@media (max-width: 1024px) {
+  .subCtg {
+    display: none;
+  }
+}
+
 a:visited {
   color: blue;
 }
@@ -28,6 +34,36 @@ a {
 
 .nav {
   text-align: center;
+}
+
+.post-content {
+  margin-left: 10px;
+}
+
+.post-title {
+  font-size: 20px;
+}
+
+.post-entry {
+  background-color: #eee;
+  font-family: 'opensans', sans-serif;
+  font-size: 10px;
+  padding: 10px;
+  padding-top: 5px;
+  border: 1px solid #08182b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.post-image img {
+  margin: 5px;
+  max-width: 7%;
+  float: left;
+}
+
+.show {
+  display: block;
 }
 
 .title,

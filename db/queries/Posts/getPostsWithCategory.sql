@@ -1,5 +1,5 @@
 SELECT
-  *
+  posts.*
 FROM
   posts
 LEFT JOIN

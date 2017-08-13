@@ -159,9 +159,27 @@
     {
       "id": 1,
       "title": "Hello World!",
-      "image": "",
+      "image": "http://upforest.gov.in/Images/Default.png",
       "description": "First Post!",
       "location": "123 Fake Street",
+      "section_id": 1,
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "title": "This is another post",
+      "image": "http://upforest.gov.in/Images/Default.png",
+      "description": "Another Post!",
+      "location": "Bay Area",
+      "section_id": 1,
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "title": "Garage Sale, everything must go!",
+      "image": "http://upforest.gov.in/Images/Default.png",
+      "description": "I am selling a bunch of things.",
+      "location": "San Francisco",
       "section_id": 1,
       "category_id": 1
     }

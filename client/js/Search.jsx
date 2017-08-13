@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import Post from './Post.jsx';
 
 class Search extends React.Component {
   constructor(props) {
@@ -25,10 +26,10 @@ class Search extends React.Component {
   render() {
     return (
       <div>
-        <div>In Search</div>
+        Search: <input placeholder="not implemented" />
         <div>
           {this.state.posts.map(post => {
-            return post.title;
+            return <Post key={post.id} post={post} />;
           })}
         </div>
       </div>
