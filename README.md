@@ -1,26 +1,32 @@
 # CraigsList Mock
 
+Clone the project and run:
+
+**npm install**
+
 To run:
 
 You must create a new postgres database and start it up.
 
 Then create a .env file in the root of the project with the line (example):
 
-DB_LOCAL = postgres://localhost:5432/databaseName
+**DB_LOCAL = postgres://localhost:5432/databaseName**
 
 Run the npm script "reset-db" with the command:
 
-npm run reset-db
+**npm run reset-db**
 
 This will drop any tables in the database and reinsert dummy data.
 
 Build the project with the build script:
 
-npm run build
+**npm run build**
 
 To start the server:
 
-node server/index.js
+**node server/index.js**
+
+Open browser and go to localhost:3000
 
 Summary:
 
